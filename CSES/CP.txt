@@ -1,0 +1,48 @@
+Always take care of the edge cases.
+// signify integer divison with not floating points
+range(3) means 0 1 2,array of length 3
+if the question has higher n values,then probably a lower time complexity would be there.
+#be very careful of identation errors in python
+BE VERY CAREFUL OF LOOP
+range(1,len(s)),
+range starts from second to last position
+numbers=(int(x) for x in datas.split())---this creates a generator function,not a list
+to get a list,you need square brackets istead of circular check whether all the values have been correctly updated after modification
+#Always test the edge cases,lowest and highest,they could go wrong
+#elif cases contains condition
+#AFTER each edge cases,dont forget to look onto return statements,otherwise RUNTIME ERRORS
+#range has syntax: range(start,stop,step),stop is exclusive
+#this unpacks the list and print the numbers
+#you should not avoid edge cases
+#you should not give contradictory condtions in or statment since it will always be true
+1 << s :this is left shift
+s >> 1 -this is right shift
+f is used to represent numbers
+Every recursive function must have the base case at very top,not bottom because this gets checked first
+hardcoding is fine,but the reucrsive function is atmost usable when the dynamic variables are being used
+#while using recursion,do not forget to write out the return statemnets properly
+never also keep the recursion depth to high,or upper base case
+Whenever you see $N \le 20$ in competitive programming, the correct tool is Recursion.
+sorting is the key to this question
+IF ELSE CONDTIONS SHOULD NOT BE CONTRICTING COMPLELTY
+whenever matrix questions come,try to figure out use the indexes of the matrix grid,that is only way to figure out an algorithm or program
+# exact_offset = math.ceil(digit_offset / i)  <-- DELETE THIS
+exact_offset = (digit_offset + i - 1) // i    <-- this skips to the next number and take the divison close enough
+whenver debugging,write variabe,and just change according to iteraations
+DISJOIUNT SET UNION
+BACKTRACKING
+DFS
+BFS
+PRUNING
+he Average minimizes the sum of squared distances, not absolute distances.
+Because of this, the Average is highly sensitive to Outliers.
+The Median minimizes the sum of absolute distances (which is exactly what the CSES problem asks for: 1 unit of length = 1 coin).
+The Median completely ignores the actual values of outliers and only cares about the number of items on either side of it.
+if the step length was not given gthe the loop would go out of bounds?
+in python ,tople sorting is easiest,it will simply take the first element
+WIRING METHOD
+overlapping mathematical ranges.
+you can add the if/else conditions into while loop also
+if the answer demands modulo,do it between developing the answer
+#SORTING SAVES LIVES, AND UNNNECESSARY LOOPING
+#no of arrays in a limit of i,j of sliding window is j-i+1

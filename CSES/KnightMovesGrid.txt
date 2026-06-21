@@ -1,0 +1,13 @@
+0 3 2 3 2 3 4 5 
+3 4 1 2 3 4 3 4 
+2 1 4 3 2 3 4 5 
+3 2 3 2 3 4 3 4 
+2 3 2 3 4 3 4 5 
+3 4 3 4 3 4 5 4 
+4 3 4 3 4 5 4 5 
+5 4 5 4 5 4 5 6 
+statergy
+take an index-origin
+append the cordinates onto the list of all the possible moves
+deque from the queue and add it to visited,marking 
+IN BFS,there should be a visited queue and assigned queue
